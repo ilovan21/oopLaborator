@@ -6,9 +6,9 @@ public class Student {
     private String nume="Ilovan Maria";
     private String specialitate="Tehnologia Informatiei ";
 
-
     public Student(){
     }
+    
     public Student(String grupa, String nume){
         this.grupa=grupa;
         this.nume=nume;
@@ -20,6 +20,7 @@ public class Student {
         this.specialitate=specialitate;
         this.anul=anul;
     }
+    
     public void afisare(){
         System.out.println( "Nume: "+this.nume+" specialitatea : "+ this.specialitate+"  anul : "+ this.anul+" grupa : "+this.grupa);
     }
