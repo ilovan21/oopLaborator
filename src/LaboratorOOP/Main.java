@@ -6,8 +6,7 @@ public class Main {
         filieraFrancofona.afisare();
         Student filieraAnglofona=new Student("FAF-211","Caterev Ana");
         filieraAnglofona.afisare();
-
         Student grupaRomana=new Student("MI-211","Boboc Andrei","Managementul Informatiei" ,3);
-        grupaRomana.afisare();;
+        grupaRomana.afisare();
     }
 }
